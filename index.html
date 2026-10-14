@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile, Shop and Plans</title>
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -11,35 +11,79 @@
 </head>
 <body>
     
-    <div class="card">
-        <div class="banner">
-            <div class="btnfollow">
-                <span>Follow</span>
-                <i class="fas fa-plus"></i>
+    <!-- the three-card row: profile, shopping, billing -->
+    <div class="cards">
+
+        <div class="card card--profile">
+            <div class="banner">
+                <div class="btnfollow">
+                    <span>Follow</span>
+                    <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </div>
             </div>
-        </div>
-        <div class="profile">
-            <img src="Gregoryy.jpeg" alt="Image" />
-            <div class="name">Greggyy</div> 
-        </div>
-                <div class="bio">
-            <div class="bio"> carpe diem
+            <div class="profile">
+                <img src="gregg.jpg" alt="Portrait photo of Greg Jambonggana" />
+                <div class="name">Greg Jambonggana</div> 
+            </div>
+            <p class="bio">Hello come to my world full uf judgement, voilent reaction, enumeration, and all nation. You can learn from me! if you want to follow me hehehe!!</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-value">251</span>
+                    <span class="stat-label">Posts</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">4.15K</span>
+                    <span class="stat-label">Learners</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">21</span>
+                    <span class="stat-label">Lessons</span>
+                </div>
+            </div>
+            <div class="socmed">
+                <div>
+                    <i class="fa-brands fa-facebook" aria-hidden="true"></i> Facebook
+                </div>
+                <div>
+                    <i class="fa-brands fa-tiktok" aria-hidden="true"></i> Tiktok
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram
+                </div>
             </div>
         </div>
 
-        <div class="socmed">
-            <div>
-                <i class="fab fa-facebook"></i> Facebook
+        <div class="card card--shop">
+            <img class="shop-media" src="assets/tote-bag.jpg" alt="Natural jute tote bag with sturdy rope handles">
+            <div class="shop-body">
+                <h2 class="shop-title">Jute Tote Bag</h2>
+                <p class="shop-desc">Woven natural jute with sturdy rope handles and an open top.</p>
+                <div class="shop-dots" aria-hidden="true"><span></span><span></span><span></span></div>
             </div>
-            <div>
-                <i class="fab fa-tiktok"></i> Tiktok
-            </div>
-            <div>
-                <i class="fab fa-instagram"></i> Instagram
+            <div class="shop-foot">
+                <span class="shop-price">$55.00</span>
+                <span class="shop-cta">ADD TO CART</span>
             </div>
         </div>
+
+        <div class="card card--billing">
+            <h2 class="plan-name">Nebula</h2>
+            <p class="plan-price">
+                <span class="plan-amount">$15</span>
+                <span class="plan-term">per creator / month<br>billed annually</span>
+            </p>
+            <span class="plan-cta">Launch Journey</span>
+            <ul class="plan-features">
+                <li><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i> 20 projects / month</li>
+                <li><i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i> Cross-platform sync</li>
+                <li><i class="fa-solid fa-sliders" aria-hidden="true"></i> AI workflow optimizer</li>
+                <li><i class="fa-solid fa-gauge-high" aria-hidden="true"></i> Real-time performance insights</li>
+                <li><i class="fa-solid fa-palette" aria-hidden="true"></i> Customizable brand templates</li>
+            </ul>
+            <p class="plan-foot">Need enterprise features?</p>
+        </div>
+
     </div>
     
-
 </body>
 </html>
