@@ -186,6 +186,8 @@ background-image: linear-gradient(to right, #434343 0%, black 100%);
 .shop-foot {
     display: flex;
     align-items: center;
+    margin; 10px;
+    gap; 10px;
     justify-content: center;
     border-top: 1px solid #ece2d2;
     padding: 16px 4px 2px;
