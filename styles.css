@@ -131,12 +131,12 @@ background-image: linear-gradient(to right, #434343 0%, black 100%);
 .shop-media {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 180px;
     min-height: 200px;
     flex-grow: 1;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
-    background-color: #d9ece6;
+    background-color: #ffffff;
 }
 
 .shop-body {
